@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maharshi Jee | Profile</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0077cc;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #d0e7ff;
+            color: #0077cc;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        /* Projects */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .project-card h3 {
+            margin-bottom: 10px;
+            color: #0077cc;
+        }
+
+        /* Contact */
+        .contact a {
+            color: #0077cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media(max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Maharshi Jee</h1>
+        <p>Web Developer & Data Analyst</p>
+    </header>
+
+    <!-- About Me -->
+    <section class="container">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm Maharshi, a passionate Web Developer and Data Analyst with experience in Java, Python, SQL, and React. I enjoy building interactive web applications and analyzing data to derive insights.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+            <span class="skill">AWS</span>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="container">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Plant Disease Detection</h3>
+                <p>Machine Learning project to detect plant diseases from images using Python and TensorFlow.</p>
+            </div>
+            <div class="project-card">
+                <h3>AI Chatbot for Supplier Data</h3>
+                <p>React + Python project to query supplier and product data using AI and SQL database.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:maharshi@example.com">maharshi@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/username" target="_blank">github.com/username</a></p>
+    </section>
+
+</body>
+</html>
